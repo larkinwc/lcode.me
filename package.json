@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "SET NODE_ENV=development & webpack-dev-server --inline --hot",
-    "build": "SET WEBPACK_ENV=production webpack --colors",
+    "build": "SET WEBPACK_ENV=production & webpack --colors",
     "clean": "rimraf public/build",
     "deploy": "npm run build && gh-pages -d public && npm run clean"
   },
