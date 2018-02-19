@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "presets": [
       ["env", {
         "targets": {
@@ -8,3 +9,13 @@
     ]
   }
   
+=======
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      }
+    }]
+  ]
+}
+>>>>>>> 7647073877645c85ad12b874f20ce4f399b27574
